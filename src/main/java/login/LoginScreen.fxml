@@ -10,14 +10,14 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="805.0" style="-fx-background-color: #EE8018;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EcommerceLoginJavaFx.LoginScreenController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="522.0" prefWidth="1100.0" style="-fx-background-color: #EE8018;" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EcommerceLoginJavaFx.LoginScreenController">
    <children>
       <Label fx:id="errorMessage" layoutX="570.0" layoutY="272.0" prefHeight="25.0" prefWidth="60.0">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <AnchorPane layoutY="-5.0" prefHeight="529.0" prefWidth="412.0" style="-fx-background-color: #686868; -fx-border-radius: 15;">
+      <AnchorPane fx:id="anchorpane" layoutY="-5.0" prefHeight="529.0" prefWidth="422.0" style="-fx-background-color: #686868; -fx-border-radius: 15;">
          <children>
             <Label layoutX="164.0" layoutY="193.0" text="Login" textFill="#e4eaee">
                <font>
@@ -26,7 +26,7 @@
             </Label>
             <TextField fx:id="username" layoutX="80.0" layoutY="245.0" prefHeight="39.0" prefWidth="255.0" promptText="Enter Mobile Number" style="-fx-background-color: Transparent; -fx-border-color: #EE8018; -fx-border-width: 0px 0px 2px 0px;" />
             <PasswordField fx:id="password" layoutX="79.0" layoutY="296.0" prefHeight="39.0" prefWidth="255.0" promptText="Enter Password" style="-fx-background-color: Transparent; -fx-border-color: #EE8018; -fx-border-width: 0px 0px 2px 0px;" />
-            <Button fx:id="loginButton" layoutX="77.0" layoutY="357.0" mnemonicParsing="false" onAction="#loginButtonClick" prefHeight="39.0" prefWidth="261.0" style="-fx-background-color: #EE8018;" text="Next" textFill="#e8ebee">
+            <Button fx:id="loginButton" layoutX="77.0" layoutY="374.0" mnemonicParsing="false" onAction="#loginButtonClick" prefHeight="39.0" prefWidth="261.0" style="-fx-background-color: #EE8018;" text="Next" textFill="#e8ebee">
                <font>
                   <Font name="Arial Black" size="18.0" />
                </font>
@@ -38,7 +38,7 @@
                   <Font name="System Bold" size="25.0" />
                </font>
             </Label>
-            <Label layoutX="143.0" layoutY="104.0" prefHeight="39.0" prefWidth="128.0" text="जी" textFill="#eeeae7">
+            <Label layoutX="143.0" layoutY="104.0" prefHeight="39.0" prefWidth="128.0" text="जी" textFill="#ee8018">
                <font>
                   <Font name="System Bold" size="25.0" />
                </font>
@@ -52,17 +52,17 @@
             <Label layoutX="101.0" layoutY="458.0" text="2023-2024 VzSys.inc. All rights reserved" textFill="#e8e2e2" />
          </children>
       </AnchorPane>
-      <ImageView fitHeight="165.0" fitWidth="185.0" layoutX="525.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="165.0" fitWidth="185.0" layoutX="548.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../../../../../Downloads/9017644.png" />
          </image>
       </ImageView>
-      <Label layoutX="432.0" layoutY="253.0" prefHeight="39.0" prefWidth="318.0" text="The body when combined with the sense organs, mind and ">
+      <Label layoutX="453.0" layoutY="246.0" prefHeight="39.0" prefWidth="318.0" text="The body when combined with the sense organs, mind and ">
          <font>
             <Font name="System Italic" size="12.0" />
          </font>
       </Label>
-      <Label layoutX="432.0" layoutY="273.0" prefHeight="39.0" prefWidth="352.0" text="becomes life">
+      <Label layoutX="453.0" layoutY="265.0" prefHeight="39.0" prefWidth="352.0" text="becomes life">
          <font>
             <Font name="System Italic" size="13.0" />
          </font>

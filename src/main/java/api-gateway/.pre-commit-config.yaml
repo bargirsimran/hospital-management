@@ -1,0 +1,15 @@
+default_install_hook_types:
+ [pre-commit, pre-push, commit-msg, prepare-commit-msg]
+
+repos:
+ - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
+   rev: v2.12.0
+   hooks:
+     - id: pretty-format-java
+       args: [--autofix, --google-java-formatter-version=1.21.0]
+
+ - repo: https://github.com/zodgevaibhav/pre-commit-hooks
+   rev: main
+   hooks:
+     - id: check_commit_type_scope
+       stages: [commit-msg]
